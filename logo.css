@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #888;
+    /* Background color for the entire page */
+    color: #eee;
+    /* Text color */
+    text-align: center;
+    /* Center-align text */
+}
+
+/* Styling for the span element inside the heading */
+span {
+    color: #F57D11;
+    /* Text color for the span element */
+}
+
+/* Styling for the logo container */
+.logoContainer {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Center the container horizontally and vertically */
+    background: #393939;
+    /* Background color of the container */
+    width: 750px;
+    /* Width of the container */
+    height: 750px;
+    /* Height of the container */
+}
+
+/* Styling for the borders surrounding the logo */
+.borders {
+    position: absolute;
+    width: 325px;
+    /* Width of the border element */
+    height: 325px;
+    /* Height of the border element */
+    top: 21%;
+    /* Position from the top of the logo container */
+    right: 22%;
+    /* Position from the right of the logo container */
+    transform: translate(-50%, -50%);
+    /* Center the border element horizontally and vertically */
+    border-top: 50px solid #FF7300;
+    /* Top border color */
+    border-right: 50px solid #CCC;
+    /* Right border color */
+    border-bottom: 50px solid #0bf;
+    /* Bottom border color */
+    border-left: 50px solid #AFA;
+    /* Left border color */
+    transform: rotate(45deg);
+    /* Rotate the border element by 45 degrees */
+}
+
+/* Styling for the individual boxes within the borders */
+.box {
+    position: absolute;
+    width: 50px;
+    /* Width of each box */
+    height: 50px;
+    /* Height of each box */
+    z-index: 9;
+}
+
+.box1 {
+    background-color: #884419;
+    /* Background color of box 1 */
+    transform: translate(-100%, -100%);
+    /* Position box 1 */
+}
+
+.box2 {
+    background-color: #b40;
+    /* Background color of box 2 */
+    transform: translate(650%, -100%);
+    /* Position box 2 */
+}
+
+.box3 {
+    background-color: #077;
+    /* Background color of box 3 */
+    transform: translate(650%, 650%);
+    /* Position box 3 */
+}
+
+.box4 {
+    background-color: #0A9;
+    /* Background color of box 4 */
+    transform: translate(-100%, 650%);
+    /* Position box 4 */
+}
+
+/* Styling for the main heading */
+.heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Center the heading horizontally and vertically */
+    font-size: 50px;
+    /* Font size of the heading */
+    font-family: sans-serif;
+    /* Font family for the heading */
+}
+
+/* Styling for the subheading */
+.sub-heading {
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Center the subheading horizontally and vertically */
+    font-size: 12px;
+    /* Font size of the subheading */
+    font-family: sans-serif;
+    /* Font family for the subheading */
+}
